@@ -1,6 +1,4 @@
 import styles from "../style";
-import { Chrono } from "react-chrono";
-import { timeline } from "../constants";
 
 const Timeline = () => (
   <section

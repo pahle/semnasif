@@ -5,7 +5,7 @@ const CTA = () => (
   <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
       <h2 className={`${styles.heading2} text-white text-center sm:text-left text-[35px]`}>Ayo Daftar Sekarang Juga!</h2>
-      <p className={`${styles.paragraph} text-white max-w-[470px] mt-5 text-justify text-[14px]`}>
+      <p className={`${styles.paragraph} text-white mt-5 text-justify text-[14px]`}>
         Lorem, ipsum dolor sit amet consectetur adipisicing
         elit. Facilis eos, doloribus ducimus placeat
         asperiores vel?

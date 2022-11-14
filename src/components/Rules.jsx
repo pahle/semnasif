@@ -46,7 +46,7 @@ const Rules = () => (
         Tertib Peserta
       </h2>
       <p
-        className={`${styles.paragraph} max-w-[470px] mt-5`}
+        className={`${styles.paragraph} mt-5`}
       >
         Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Consequatur voluptates excepturi hic
