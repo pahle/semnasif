@@ -15,6 +15,7 @@ const GetStarted = () => (
           </p>
           <img
             src={arrowUp}
+            alt="arrowUp"
             className="w-[23px] h-[23px] object-contain"
           />
         </div>
