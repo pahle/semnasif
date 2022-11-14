@@ -27,8 +27,8 @@ const Hero = () => (
 
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] xs:text-[52px] text-[48px] ss:leading-[100px] leading-[75px] w-[100%]">
-          SEMINAR <br className="sm:block hidden" /> NASIONAL{" "}
-          <br className="sm:block hidden" />
+          SEMINAR <br className="sm:block hidden" />{" "}
+          NASIONAL <br className="sm:block hidden" />
           <span className="text-gradient">INFORMATIKA</span>
         </h1>
         <div className="ss:flex hidden md:mr-4 mr-0">
