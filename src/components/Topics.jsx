@@ -16,10 +16,6 @@ const Topics = () => (
       </h1>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left`}>
-          Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. At non mollitia exercitationem
-          ipsam minus illo consequuntur molestias itaque
-          provident voluptas.
         </p>
       </div>
     </div>
