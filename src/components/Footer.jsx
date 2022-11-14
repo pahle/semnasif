@@ -9,18 +9,6 @@ const Footer = () => (
     <div
       className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}
     >
-      <div className="flex-1 flex flex-col justify-start mr-10">
-        <img
-          src={logo}
-          alt="semnasif"
-          className="w-[260px] object-contain"
-        />
-        <p
-          className={`${styles.paragraph} mt-4 max-w-[310px] ml-4`}
-        >
-          Lorem ipsum dolor sit amet.
-        </p>
-      </div>
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerLink, index) => (
           <div

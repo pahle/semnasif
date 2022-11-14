@@ -97,24 +97,6 @@ export const feedback = [
   },
 ];
 
-export const stats = [
-  {
-    id: "stats-1",
-    title: "Days",
-    value: "30",
-  },
-  {
-    id: "stats-2",
-    title: "Hours",
-    value: "23",
-  },
-  {
-    id: "stats-3",
-    title: "Minutes",
-    value: "45",
-  },
-];
-
 export const footerLinks = [
   {
     title: "Useful Links",
@@ -142,7 +124,7 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Community",
+    title: "Links",
     links: [
       {
         name: "Help Center",

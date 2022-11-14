@@ -34,6 +34,7 @@ import logojurusan from "./logojurusan.png";
 import semnasif1 from "./semnasif1.jpg";
 import robot3 from "./robot3.png";
 import timeline from "./timeline.png"
+import logobaru from "./logobaru.png"
 
 export {
   airbnb,
@@ -71,5 +72,6 @@ export {
   logosi,
   logojurusan,
   semnasif1,
-  timeline
+  timeline,
+  logobaru
 };
