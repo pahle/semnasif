@@ -15,11 +15,8 @@ const Announcement = () => (
       <p
         className={`${styles.paragraph} text-white text-justify text-[14px] sm:text-[18px] sm:px-0 px-5 sm:pb-0 pb-4 sm:mt-5 mt-0  `}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Saepe sequi dolorum atque excepturi modi,
-        adipisci ratione fugit expedita. Consectetur
-        praesentium eum ratione odio nulla adipisci incidunt
-        molestiae sequi neque nesciunt.
+      Dengan suka hati, kami mengumumkan SEMNASIF yang dikelola oleh Jurusan Informatika Universitas Pembangunan Nasional "Veteran" Yogyakarta
+      yang akan diselenggarakan di Yogyakarta, 17 Desember 2022.
       </p>
     </div>
   </section>
