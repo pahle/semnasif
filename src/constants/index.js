@@ -55,7 +55,7 @@ export const features = [
     title: "Template Paper",
     content:
       "Petunjuk terkait format penulisan paper yang akan diunggah",
-      link: "https://www.google.com"
+    link: "https://www.google.com",
   },
   {
     id: "feature-2",
@@ -63,7 +63,7 @@ export const features = [
     title: "Author Guideline",
     content:
       "Petunjuk umum terkait penulisan judul, abstrak, pendahuluan, dan lain-lain",
-      link: "https:"
+    link: "https:",
   },
   {
     id: "feature-3",
@@ -71,7 +71,7 @@ export const features = [
     title: "Tata Tertib",
     content:
       "Peraturan terkait pelaksanaan Seminar Nasional Informatika 2022",
-      link: "https:"
+    link: "https:",
   },
 ];
 

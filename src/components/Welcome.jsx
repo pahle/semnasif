@@ -9,7 +9,7 @@ const Welcome = () => {
           Selamat Datang di{" "}
           <br className="sm:block hidden" /> SEMNASIF 2022
         </h2>
-        <p className={`${styles.paragraph} mt-5`}>
+        <p className="font-poppins font-normal xs:text-[18px] leading-[30.8px] text-justify md:max-w-[470px] max-w-full mt-5">
           Dengan suka hati, kami mengumumkan SEMNASIF yang
           dikelola oleh Jurusan Informatika Universitas
           Pembangunan Nasional "Veteran" Yogyakarta yang
