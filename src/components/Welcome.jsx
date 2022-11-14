@@ -12,12 +12,9 @@ const Welcome = () => {
         <p
           className={`${styles.paragraph} mt-5`}
         >
-          Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Architecto nulla error ab
-          necessitatibus doloremque voluptatibus saepe ullam
-          facere fuga consectetur inventore, iste ea
-          provident et. Dolorum temporibus dolore corporis
-          ipsa!
+          Dengan suka hati, kami mengumumkan SEMNASIF yang 
+          dikelola oleh Jurusan Informatika Universitas Pembangunan Nasional "Veteran" Yogyakarta 
+          yang akan diselenggarakan di Yogyakarta, 17 Desember 2022.
         </p>
       </div>
       <div className={layout.sectionImg}>
