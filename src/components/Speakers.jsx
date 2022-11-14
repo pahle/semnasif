@@ -18,7 +18,7 @@ const Speakers = () => (
         <FeedbackCard key={card.id} {...card} />
       ))} */}
       <div className="flex justify-center flex-col px-10 py-12 rounded-[20px] w-full h-[300px] coming-soon align-middle">
-        <h4 className="font-poppins font-semibold text-center text-[50px] leading-[32px]">
+        <h4 className="font-poppins font-semibold text-center sm:text-[50px] text-[30px] leading-[32px]">
           Coming Soon
         </h4>
       </div>

@@ -18,7 +18,7 @@ const Timeline = () => (
       <img
         src={timeline}
         alt="timeline"
-        className="md:w-[800px] relative z-[5] ml-[100px]"
+        className="md:w-[800px] relative z-[5] xl:ml-[100px]"
       />
     </div>
   </section>

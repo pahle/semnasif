@@ -29,7 +29,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Rules = () => (
   <section id="peraturan" className={layout.sectionReverse}>
-    <div className={`${layout.sectionImgReverse} flex-col mr-10`}>
+    <div className={`${layout.sectionImgReverse} flex-col`}>
       {features.map((feature, index) => (
         <FeatureCard
           key={feature.id}
