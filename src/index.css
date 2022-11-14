@@ -142,8 +142,8 @@
 }
 
 .yellow__gradient {
-  background: linear-gradient(90deg, #ffe600 0%, #eaff2a 100%);
-  filter: blur(900px);
+  background: linear-gradient(180deg, rgba(0, 217, 255, 0) 0%, #fbff00 200%);
+  filter: blur(123px);
 }
 
 .white__gradient {

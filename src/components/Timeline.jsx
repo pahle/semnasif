@@ -1,4 +1,5 @@
-import styles from "../style";
+import styles, { layout } from "../style";
+import { timeline } from "../assets";
 
 const Timeline = () => (
   <section
@@ -17,8 +18,15 @@ const Timeline = () => (
         </p>
       </div>
     </div>
-    <div>
-     timeline
+    <div className={layout.sectionImg}>
+
+    <div className="absolute z-[0] w-[60%] h-[60%] -right-[100%] rounded-full blue__gradient" />
+    <div className="absolute z-[0] w-[60%] h-[60%] -left-[100%] rounded-full yellow__gradient" />
+      <img
+        src={timeline}
+        alt="timeline"
+        className="md:w-[800px] relative z-[5]"
+      />
     </div>
   </section>
 );
