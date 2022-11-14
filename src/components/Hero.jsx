@@ -42,11 +42,13 @@ const Hero = () => (
       <p
         className={`font-poppins font-normal text-justify text-primary text-[18px] leading-[30.8px] max-w-[470px] mt-5`}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Illum molestiae qui hic ratione iusto magni
-        beatae repellendus quod repellat accusamus sit sequi
-        quis, tempore perspiciatis et commodi delectus cum
-        aspernatur.
+        Seminar Nasional Sistem Informasi dan Informatika
+        (SEMNASIF) merupakan aktivitas rutin yang diadakan
+        setiap tahun oleh Jurusan Teknik Informatika UPN
+        “Veteran” Yogyakarta. SEMNASIF telah rutin
+        dilaksanakan sejak tahun 2008. Tahun 2022 ini
+        SEMNASIF kembali diselenggarakan dengan mengusung
+        tema “Investasi Digital”.
       </p>
     </div>
     <div

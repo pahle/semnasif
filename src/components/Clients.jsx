@@ -13,7 +13,7 @@ const Clients = () => (
         >
           <img
             src={clients.logo}
-            alt="clients"
+            alt="partner"
             className="sm:w[192px] w-[100px] object-contain"
           />
         </div>

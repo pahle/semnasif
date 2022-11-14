@@ -1,9 +1,10 @@
 import styles from "../style";
-import { logo } from "../assets";
-import { footerLinks, socialMedia } from "../constants";
+import { logosemnasif } from "../assets";
+import { footerLinks } from "../constants";
 
 const Footer = () => (
   <section
+  id="footer"
     className={`${styles.flexCenter} ${styles.paddingY} flex-col`}
   >
     <div
@@ -28,14 +29,25 @@ const Footer = () => (
                       : "mb-0"
                   } flex flex-row`}
                 >
-                  <img src={link.icon} alt="" className={`w-[20px] h-[20px] mr-2 ${!link.icon ? "hidden" : "block"}`}/>
-                  <a href={link.link}>{link.name}</a>
+                  <img
+                    src={link.icon}
+                    alt=""
+                    className={`w-[20px] h-[20px] mr-2 ${
+                      !link.icon ? "hidden" : "block"
+                    }`}
+                  />
+                  <a href={link.link} target="_blank">{link.name}</a>
                 </li>
               ))}
             </ul>
           </div>
         ))}
       </div>
+    </div>
+    <div>
+      <p className="font-poppins font-medium text-[18px] text-center">
+       &copy; 2022 Jurusan Teknik Informatika, UPN "Veteran" Yogyakarta
+      </p>
     </div>
   </section>
 );

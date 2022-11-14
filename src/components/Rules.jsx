@@ -1,7 +1,13 @@
 import styles, { layout } from "../style";
 import { features } from "../constants";
 
-const FeatureCard = ({ icon, title, content, index }) => (
+const FeatureCard = ({
+  icon,
+  title,
+  content,
+  link,
+  index,
+}) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
@@ -21,8 +27,15 @@ const FeatureCard = ({ icon, title, content, index }) => (
         {title}
       </h4>
       <p className="font-poppins font-normal text-[16px] leading-[24px] mb-1">
-        {content}
+        {content} <br />
       </p>
+      <a
+        href={link}
+        target="_blank"
+        className="font font-semibold text-gradient"
+      >
+        Download
+      </a>
     </div>
   </div>
 );

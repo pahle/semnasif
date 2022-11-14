@@ -103,7 +103,7 @@ const Registration = () => (
           </div>
         </div>
         <div className="flex justify-center mt-6">
-          <Button styles='mt-10' link={'//www.google.com'} text={'Registrasi'}/>
+          <Button styles='mt-10' link={'//www.google.com'} text={'Register'}/>
         </div>
       </div>
       <div className="flex md:justify-between justify-center flex-col px-10 py-12 rounded-[20px] md:min-w-[450px] min-w-[370px] my-5 bg-black-gradient-2 border-2">
@@ -129,7 +129,7 @@ const Registration = () => (
           </div>
         </div>
         <div className="flex justify-center mt-6">
-          <Button styles='mt-10' link={'//www.google.com'} text={'Registrasi'}/>
+          <Button styles='mt-10' link={'//www.google.com'} text={'Register'}/>
         </div>
       </div>
     </div>

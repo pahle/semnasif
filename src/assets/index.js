@@ -33,8 +33,11 @@ import logosi from "./si.png";
 import logojurusan from "./logojurusan.png";
 import semnasif1 from "./semnasif1.jpg";
 import robot3 from "./robot3.png";
-import timeline from "./timeline.png"
-import logosemnasif from "./logosemnasif.png"
+import timeline from "./timeline.png";
+import logosemnasif from "./logosemnasif.png";
+import phone from "./phone-call.png";
+import email from "./email.png";
+import logometa from "./logometa.png"
 
 export {
   airbnb,
@@ -73,5 +76,8 @@ export {
   logojurusan,
   semnasif1,
   timeline,
-  logosemnasif
+  logosemnasif,
+  phone, 
+  email,
+  logometa,
 };

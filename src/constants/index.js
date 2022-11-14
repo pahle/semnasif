@@ -13,6 +13,8 @@ import {
   logojurusan,
   logoif,
   logosi,
+  phone,
+  email,
 } from "../assets";
 
 export const navLinks = [
@@ -52,21 +54,24 @@ export const features = [
     icon: send,
     title: "Template Paper",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates excepturi hic accusantium",
+      "Petunjuk terkait format penulisan paper yang akan diunggah",
+      link: "https://www.google.com"
   },
   {
     id: "feature-2",
     icon: star,
     title: "Author Guideline",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates excepturi hic accusantium",
+      "Petunjuk umum terkait penulisan judul, abstrak, pendahuluan, dan lain-lain",
+      link: "https:"
   },
   {
     id: "feature-3",
     icon: shield,
     title: "Tata Tertib",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates excepturi hic accusantium",
+      "Peraturan terkait pelaksanaan Seminar Nasional Informatika 2022",
+      link: "https:"
   },
 ];
 
@@ -148,36 +153,15 @@ export const footerLinks = [
     links: [
       {
         name: "081326610307",
-        link: "",
+        link: "#footer",
+        icon: phone,
       },
       {
         name: "admin.if@gmail.com",
-        link: "",
+        link: "#footer",
+        icon: email,
       },
     ],
-  },
-];
-
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
   },
 ];
 
