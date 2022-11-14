@@ -1,6 +1,3 @@
-import { quotes } from "../assets";
-import styles from "../style";
-
 const FeedbackCard = ({ content, name, title, img }) => (
   <div className="flex md:justify-between justify-center flex-col px-10 py-12 rounded-[20px] md:max-w-[370px] max-w-[670px] md:mr-10 mr-0 my-5 feedback-card">
     <div className="flex flex-row">

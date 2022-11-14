@@ -26,9 +26,10 @@ const Footer = () => (
                     index !== footerLink.links.length - 1
                       ? "mb-4"
                       : "mb-0"
-                  }`}
+                  } flex flex-row`}
                 >
-                  {link.name}
+                  <img src={link.icon} alt="" className={`w-[20px] h-[20px] mr-2 ${!link.icon ? "hidden" : "block"}`}/>
+                  <a href={link.link}>{link.name}</a>
                 </li>
               ))}
             </ul>

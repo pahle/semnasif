@@ -9,14 +9,22 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logosemnasif} alt="semnasif" className="w-[170px]" />
+      <a href="/">
+        <img
+          src={logosemnasif}
+          alt="semnasif"
+          className="w-[170px]"
+        />
+      </a>
 
       <ul className="list-none md:flex hidden justify-end items-center">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-secondary transition-colors duration-300 ${
-              index === navLinks.length - 1 ? "mr-0" : "mr-10"
+              index === navLinks.length - 1
+                ? "mr-0"
+                : "mr-10"
             }`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
@@ -42,7 +50,9 @@ const Navbar = () => {
               <li
                 key={nav.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] ${
-                  index === navLinks.length - 1 ? "mr-0" : "mb-4"
+                  index === navLinks.length - 1
+                    ? "mr-0"
+                    : "mb-4"
                 } text-white`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>

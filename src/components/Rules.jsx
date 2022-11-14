@@ -28,7 +28,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Rules = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="peraturan" className={layout.sectionReverse}>
     <div className={`${layout.sectionImgReverse} flex-col mr-10`}>
       {features.map((feature, index) => (
         <FeatureCard
@@ -45,15 +45,6 @@ const Rules = () => (
         <br className="sm:block hidden" />
         Tertib Peserta
       </h2>
-      <p
-        className={`${styles.paragraph} mt-5`}
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Consequatur voluptates excepturi hic
-        accusantium sint earum sapiente fugit tempore nemo,
-        eaque dolore porro magni culpa illo! Voluptatibus
-        nam corrupti quidem ut?
-      </p>
     </div>
   </section>
 );
