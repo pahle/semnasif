@@ -48,11 +48,6 @@ const Rules = () => (
       <p
         className={`${styles.paragraph} mt-5`}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Consequatur voluptates excepturi hic
-        accusantium sint earum sapiente fugit tempore nemo,
-        eaque dolore porro magni culpa illo! Voluptatibus
-        nam corrupti quidem ut?
       </p>
     </div>
   </section>
