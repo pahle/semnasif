@@ -49,24 +49,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "template",
+    icon: send,
+    title: "Template Paper",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates excepturi hic accusantium",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: star,
+    title: "Author Guideline",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates excepturi hic accusantium",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "tata tertib",
+    icon: shield,
+    title: "Tata Tertib",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates excepturi hic accusantium",
   },
 ];
 
