@@ -17,7 +17,6 @@ const Registration = () => (
         <p
           className={`${styles.paragraph} text-left`}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex sint deleniti cupiditate rem nobis hic?
         </p>
       </div>
     </div>
