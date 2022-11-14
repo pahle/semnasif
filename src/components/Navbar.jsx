@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <img src={logo} alt="semnasif" className="w-[124px]" />
 
-      <ul className="list-none sm:flex hidden justify-end items-center">
+      <ul className="list-none md:flex hidden justify-end items-center">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -24,7 +24,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="md:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"

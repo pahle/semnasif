@@ -6,10 +6,6 @@ import {
   instagram,
   linkedin,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
   send,
   shield,
   star,
@@ -29,8 +25,20 @@ export const navLinks = [
     title: "Pengumuman",
   },
   {
+    id: "persyaratan",
+    title: "Persyaratan",
+  },
+  {
+    id: "topik",
+    title: "Topik",
+  },
+  {
     id: "registrasi",
     title: "Registrasi",
+  },
+  {
+    id: "timeline",
+    title: "Timeline",
   },
   {
     id: "pembicara",
