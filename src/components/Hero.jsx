@@ -26,8 +26,8 @@ const Hero = () => (
       </div>
 
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[75px]">
-          SEMINAR NASIONAL{" "}
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] xs:text-[52px] text-[48px] ss:leading-[100px] leading-[75px] w-[100%]">
+          SEMINAR <br className="sm:block hidden" /> NASIONAL{" "}
           <br className="sm:block hidden" />
           <span className="text-gradient">INFORMATIKA</span>
         </h1>
@@ -36,7 +36,7 @@ const Hero = () => (
         </div>
       </div>
 
-      <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-primary ss:leading-[100px] leading-[75px] w-full">
+      <h1 className="font-poppins font-semibold xs:text-[68px] text-[48px] text-primary ss:leading-[100px] leading-[75px] w-full">
         2022
       </h1>
       <p
