@@ -36,7 +36,7 @@ const Footer = () => (
                       !link.icon ? "hidden" : "block"
                     }`}
                   />
-                  <a href={link.link} target="_blank">{link.name}</a>
+                  <a href={link.link}>{link.name}</a>
                 </li>
               ))}
             </ul>
