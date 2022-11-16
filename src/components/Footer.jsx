@@ -1,5 +1,4 @@
 import styles from "../style";
-import { logosemnasif } from "../assets";
 import { footerLinks } from "../constants";
 
 const Footer = () => (
