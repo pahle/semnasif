@@ -76,24 +76,24 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+    name: "Danang Adityo, S.T.",
+    title: "Jabatan",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+    name: "Prof. Dr. Eko Indrajid, MSc., MBA., MPhil., MA.",
+    title: "Jabatan",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    name: "Tony Dwi Susanto, S.T., M.T., Ph.D.",
+    title: "Jabatan",
     img: people03,
   },
 ];

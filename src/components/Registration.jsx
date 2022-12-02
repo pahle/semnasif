@@ -15,121 +15,116 @@ const Registration = () => (
       </h1>
     </div>
     <div className="flex flex-wrap justify-center md:justify-around w-full feedback-container relative z-[1]">
-      <div className="flex md:justify-between justify-center flex-col px-10 py-12 rounded-[20px] md:min-w-[450px] min-w-[370px] my-5 bg-black-gradient-2">
+      <div className="flex md:justify-between justify-center flex-col px-10 py-12 rounded-[20px] md:min-w-[450px] sm:min-w-[400px] min-w-[360px] my-5 bg-black-gradient-2">
         <div>
-          <h4 className="font-poppins font-semibold text-[20px] text-white">
+          <h4 className="font-poppins font-semibold text-[20px] text-white text-center">
             Registrasi Pemakalah
           </h4>
-          <div>
-            <p className="font-poppins font-semibold text-[18px] my-2 text-gradient">
-              Mahasiswa
-            </p>
-            <ul>
-              <li className="font-poppins font-normal text-dimWhite">
-                Tanpa Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  GRATIS
-                </span>
-              </li>
-              <li className="font-poppins font-normal text-dimWhite">
-                Dengan Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  Rp. 250,000,-
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div>
+          <div className="mt-5">
             <p className="font-poppins font-semibold text-[18px] my-2 text-gradient">
               Umum
             </p>
-            <ul>
-              <li className="font-poppins font-normal text-dimWhite">
-                Tanpa Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  Rp. 100,000,-
-                </span>
-              </li>
-              <li className="font-poppins font-normal text-dimWhite">
-                Dengan Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  Rp. 350,000,-
-                </span>
-              </li>
-            </ul>
+            <table className="font-poppins font-normal text-dimWhite">
+              <tr>
+                <td className="w-[120px] md:w-[220px] sm:w-[180px]">
+
+                  1 Paper
+                </td>
+                <td>
+                  : <span className="font-semibold text-gradient">Rp. 1.030.000,-</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  5 Paper
+                </td>
+                <td>
+                  : <span className="font-semibold text-gradient">Rp. 1.780.000,-</span>
+                </td>
+              </tr>
+            </table>
           </div>
-        </div>
-        <div className="mt-14">
-          <h4 className="font-poppins font-semibold text-[20px] text-white">
-            Bundling
-          </h4>
-          <div>
+          <div className="mt-5">
             <p className="font-poppins font-semibold text-[18px] my-2 text-gradient">
-              Mahasiswa (10 Paper)
+              Mahasiswa
             </p>
-            <ul>
-              <li className="font-poppins font-normal text-dimWhite">
-                Tanpa Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  GRATIS
-                </span>
-              </li>
-              <li className="font-poppins font-normal text-dimWhite">
-                Dengan Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  Rp. 250,000,-
-                </span>
-              </li>
-            </ul>
+            <table className="font-poppins font-normal text-dimWhite">
+              <tr>
+                <td className="w-[120px] md:w-[220px] sm:w-[180px]">
+                  1 Paper
+                </td>
+                <td>
+                  : <span className="font-semibold text-gradient">Rp. 580.000,-</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  10 Paper
+                </td>
+                <td>
+                  : <span className="font-semibold text-gradient">Rp. 2.780.000,-</span>
+                </td>
+              </tr>
+            </table>
           </div>
-          <div>
-            <p className="font-poppins font-semibold text-[18px] my-2 text-gradient">
-              Umum (5 Paper)
-            </p>
-            <ul>
-              <li className="font-poppins font-normal text-dimWhite">
-                Tanpa Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  Rp. 100,000,-
-                </span>
-              </li>
-              <li className="font-poppins font-normal text-dimWhite">
-                Dengan Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  Rp. 350,000,-
-                </span>
-              </li>
-            </ul>
-          </div>
+
         </div>
         <div className="flex justify-center mt-6">
-          <Button styles='mt-10' link={'//www.google.com'} text={'Register'}/>
+          <Button styles='mt-5' link={'//www.google.com'} text={'Register'} />
         </div>
       </div>
-      <div className="flex md:justify-between justify-center flex-col px-10 py-12 rounded-[20px] md:min-w-[450px] min-w-[370px] my-5 bg-black-gradient-2 border-2">
+      <div className="flex md:justify-between justify-center flex-col px-10 py-12 rounded-[20px] md:min-w-[450px] sm:max-w-[400px] min-w-[360px] my-5 bg-black-gradient-2">
         <div>
-          <h4 className="font-poppins font-semibold text-[20px] text-white">
-            Registrasi Non Pemakalah
+          <h4 className="font-poppins font-semibold text-[20px] text-white text-center">
+            Registrasi Non-Pemakalah
           </h4>
-          <div className="my-2">
-            <ul>
-              <li className="font-poppins font-normal text-dimWhite">
-                Tanpa Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  GRATIS
-                </span>
-              </li>
-              <li className="font-poppins font-normal text-dimWhite">
-                Dengan Prosiding Cetak :{" "}
-                <span className="font-semibold text-gradient">
-                  Rp. 250,000,-
-                </span>
-              </li>
-            </ul>
+          <div className="mt-5">
+            <p className="font-poppins font-semibold text-[18px] my-2 text-gradient">
+              Umum
+            </p>
+            <table className="font-poppins font-normal text-dimWhite">
+              <tr>
+                <td className="w-[120px] md:w-[220px] sm:w-[180px]">
+
+                  1 Paper
+                </td>
+                <td>
+                  : <span className="font-semibold text-gradient">Rp. 780.000,-</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  5 Paper
+                </td>
+                <td>
+                  : <span className="font-semibold text-gradient">Rp. 780.000,-</span>
+                </td>
+              </tr>
+            </table>
           </div>
+          <div className="mt-5">
+            <p className="font-poppins font-semibold text-[18px] my-2 text-gradient">
+              Mahasiswa
+            </p>
+            <table className="font-poppins font-normal text-dimWhite">
+              <tr>
+                <td className="w-[120px] md:w-[220px] sm:w-[180px]">
+
+                  1 Paper
+                </td>
+                <td>
+                  : <span className="font-semibold text-gradient">Rp. 530.000,-</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <p className="font-poppins font-normal text-dimWhite text-[14px] text-justify mt-5">
+            *Untuk mendapatkan sertifikat akan dikenakan biaya tambahan sebesar Rp. 100.000,-
+          </p>
         </div>
         <div className="flex justify-center mt-6">
-          <Button styles='mt-10' link={'//www.google.com'} text={'Register'}/>
+          <Button styles='mt-5' link={'//www.google.com'} text={'Register'} />
         </div>
       </div>
     </div>
